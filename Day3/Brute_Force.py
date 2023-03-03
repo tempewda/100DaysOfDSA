@@ -6,7 +6,7 @@ Approach:
 4. If they match, return the starting index of the current substring in the haystack
 5. If no match is found, return -1
 
-Time Complexity: O((N-L)L)
+Time Complexity: O((N-L)L), where N is the length of haystack and L is the length of needle
 
 Worst-Case: 
 When all characters of the haystack are same and equal to the first character of the needle. 
